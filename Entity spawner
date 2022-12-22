@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Window = Rayfield:CreateWindow({
 
-	Name = "X hub",	LoadingTitle = "entity spawner",
+	Name = "X hub",	LoadingTitle = "Entity Spawner",
 
 	LoadingSubtitle = "by xy3rx",
 
@@ -47,6 +47,8 @@ local Window = Rayfield:CreateWindow({
 	}
 
 })
+
+local Tab = Window:CreateTab("Spawn entity", 11287256504) -- Title, Image
 
 
 
