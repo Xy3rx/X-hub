@@ -33,7 +33,7 @@ local Window = Rayfield:CreateWindow({
 
 		Subtitle = "Key System",
 
-		Note = "Join the discord ("discord.gg/TKYMCY8rEM"), 
+		Note = "Join the discord (discord.gg/TKYMCY8rEM)", 
 
 
 		FileName = "XhubKey",
