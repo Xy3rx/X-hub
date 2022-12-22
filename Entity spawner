@@ -1,0 +1,56 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+
+	Name = "X hub",	LoadingTitle = "entity spawner",
+
+	LoadingSubtitle = "by xy3rx",
+
+	ConfigurationSaving = {
+
+		Enabled = true,
+
+		FolderName = nil, -- Create a custom folder for your hub/game
+
+		FileName = "X Hub"
+
+	},
+
+        Discord = {
+
+        	Enabled = true,
+
+        	Invite = "TKYMCY8rEM", -- The Discord invite code, do not include discord.gg/
+
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+
+        },
+
+	KeySystem = true, -- Set this to true to use our key system
+
+	KeySettings = {
+
+		Title = "X Hub",
+
+		Subtitle = "Key System",
+
+		Note = "Join the discord ("discord.gg/TKYMCY8rEM"), 
+
+
+		FileName = "XhubKey",
+
+		SaveKey = true,
+
+		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+
+		Key = "c47bxs8dxbsa"
+
+	}
+
+})
+
+
+
+
+
+
+Rayfield:LoadConfiguration()
