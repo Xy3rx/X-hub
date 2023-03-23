@@ -6,7 +6,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 
 local entity = Spawner.createEntity({
 
-    CustomName = "Rush",
+    CustomName = "Ambush",
 
     Model = "https://github.com/Xy3rx/Utilities/blob/main/Doors%20Entity%20Spawner/Models/Ambush.rbxm", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
 
