@@ -1,0 +1,15 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+Rayfield:Notify({
+   Title = "Script couldn't be loaded !",
+   Content = "Please join the game",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("please join the game")
+      end
+   },
+},
+})
