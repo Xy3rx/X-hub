@@ -1,4 +1,58 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({ 
+
+Name = "Doors Entities Spawner",
+
+   LoadingTitle = "X hub Loader",
+
+   LoadingSubtitle = "Currently on map Doors",
+
+   ConfigurationSaving = {
+
+      Enabled = false,
+
+      FolderName = nil, -- Create a custom folder for your hub/game
+
+      FileName = "xhub"
+
+   },
+
+   Discord = {
+
+      Enabled = true,
+
+      Invite = "TKYMCY8rEM", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+
+   KeySettings = {
+
+      Title = "Sirius Hub",
+
+      Subtitle = "Key System",
+
+      Note = "Join the discord (discord.gg/sirius)",
+
+      FileName = "xy3rxKey",
+
+      SaveKey = true,
+
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+
+      Key = ""
+
+   }
+
+})
+
+local Tab = Window:CreateTab("Home", 11347112419) -- Title, Image
+
+local Section = Tab:CreateSection("Please join the game")
+
 Rayfield:Notify({
    Title = "Script couldn't be loaded !",
    Content = "Please join the game",
