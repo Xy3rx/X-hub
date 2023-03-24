@@ -1,0 +1,19 @@
+local games = {
+
+    [{6839171747}] = "https://raw.githubusercontent.com/Xy3rx/X-hub/main/Doors%20Entity%20spawner/Source", --doors game
+
+    [{6516141723}] = "https://raw.githubusercontent.com/Xy3rx/X-hub/main/Doors%20Entity%20spawner/error.txt", --doors not game
+
+}
+
+for ids, url in next, games do
+
+    if table.find(ids, game.PlaceId) then
+
+        loadstring(game:HttpGet(url))()
+
+        break
+
+    end
+
+en
